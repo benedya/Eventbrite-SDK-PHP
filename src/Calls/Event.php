@@ -83,6 +83,7 @@ class Event
             'since_id'                  => $this->val($options, 'sinceId'),
             'organizer.id'              => $this->val($options, 'organizerId'),
             'date_modified.keyword'     => $this->val($options, 'dateModifiedKeyword'),
+            'page'                       => $this->val($options, 'page'),
         ));
 
         //validate and preprocess url
