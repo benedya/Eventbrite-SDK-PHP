@@ -64,7 +64,7 @@ class APIHelper
         //iterate and append parameters
         foreach ($parameters as $key => $value) {
             //ignore null values
-            if (is_null($value)) {
+            if (!$value) {
                 continue;
             }
 
